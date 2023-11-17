@@ -1,6 +1,10 @@
 # Daily-mail-Automation
-Automated Daily Email Script using Shell and Mutt  This repository contains a simple shell script leveraging Mutt to send automated daily emails. Easily configurable with Gmail credentials, the script is scheduled using cron for daily execution. Enhance your workflow by automating routine email updates.
-To schedule a daily automatic email at a specific time using a shell script, you can use a combination of a cron job and a script to send the email. Here's a simple example using mutt for sending emails and cron for scheduling:
+Imagine you want to send an email every day automatically, like a daily report. To do this, you can create a little computer program using a language called "Shell" and a tool called "Mutt" that helps with sending emails.
+This program is like a set of instructions that tells your computer to send an email at the same time every day. You just need to tell it when to send, and it will handle the rest.
+Inside the program, there are some parts that you can easily change, like your email login details. This makes it flexible, so you can use it with your Gmail account or something else.
+To make sure it happens every day, you use another tool called "cron." It's like a scheduler for your computer. You set it up to run your email-sending program every day at a specific time.
+So, in simple words, this is a way to make your computer send an email for you automatically every day without you having to do anything. It's like having a little robot helper to handle your routine email updates.
+
 
 Install mutt:
 bash
